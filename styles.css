@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+
+body {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.028124999999999956) 0%, rgba(229, 19, 135, 0.862) 100%);
+  font-family: "Macondo", cursive;
+
+  text-align: center;
+  margin-top: 50px;
+}
+
+.todo-container {
+  background: rgb(41, 33, 33);
+  width: 400px;
+  margin: 0 auto;
+  border: 2px solid #0033ff;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+  font-family: "Macondo", cursive;
+}
+
+img {
+  height: 150px;
+}
+
+#input-box {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  font-family: "Macondo";
+}
+
+#input-button {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2ec4ea;
+  box-shadow: 5px 3px 16px 2px rgba(0, 0, 0, 0.75);
+}
+
+.task button {
+  background: rgb(12, 124, 251);
+  border-radius: 5px;
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  float: right;
+}
+
+hr {
+  border: 1px solid #2ec4ea;
+  border-style: inset;
+}
+
+#header {
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#input-button:hover {
+  background-color: #0cade2;
+}
+
+.delete-btn:hover {
+  background-color: #ed2dcd;
+}
+
+.edit-btn:hover {
+  background-color: #ed2dcd;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
+}
+
+li {
+  border: 3px solid white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.edit-btn,
+.delete-btn,
+.complete-btn {
+  float: right;
+  color: #2ec4ea;
+  cursor: pointer;
+  margin: 3px 5px;
+  border: none;
+  padding: 3px 5px;
+  background: none;
+}
+.edit-btn,
+.delete-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5px;
+  border: #2ec4ea;
+  border-style: inherit;
+  border-radius: 15px;
+  box-shadow: 5px 3px 16px 2px rgba(0, 0, 0, 0.75);
+}
+.completed {
+  text-decoration: line-through;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+}
+
+span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
