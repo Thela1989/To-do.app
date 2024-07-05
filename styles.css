@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
 
 body {
-  background: rgb(255, 255, 255);
+  background: rgb(50, 5, 5);
   background: radial-gradient(circle, rgba(0, 0, 0, 0.028124999999999956) 0%, #cd92a5 100%);
   font-family: "Macondo", cursive;
   width: 100vw;
@@ -13,8 +13,14 @@ body {
   
 }
 
+.background{
+  width:50%;
+  background-color: #4f3d3d;
+}
+
 .todo-container {
   background: rgb(41, 33, 33);
+  width: 50%;
   
 
   margin: 0 auto;
